@@ -26,11 +26,11 @@ class HBNBCommand(cmd.Cmd):
         """
         return True
 
-    def do_help(self):
-        """
-        this is a help command
-        """
-        pass
+ #   def do_help(self):
+ #       """
+  #      this is a help command
+   #     """
+    #    pass
 
 
 if __name__ == "__main__":
