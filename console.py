@@ -26,12 +26,11 @@ class HBNBCommand(cmd.Cmd):
         """
         return True
 
- #   def do_help(self):
- #       """
-  #      this is a help command
-   #     """
-    #    pass
-
+    def emptyline(self):
+        """
+        Do nothing
+        """
+        pass
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
