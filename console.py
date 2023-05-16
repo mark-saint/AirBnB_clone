@@ -11,8 +11,9 @@ class HBNBCommand(cmd.Cmd):
     """
     the class
     """
-    
+
     prompt = '(hbnb) '
+
     def do_quit(self, line):
         """
         Quit command to exit the program
@@ -25,8 +26,12 @@ class HBNBCommand(cmd.Cmd):
         """
         return True
 
-    def help(self):
+    def do_help(self):
+        """
+        this is a help command
+        """
         pass
+
 
 if __name__ == "__main__":
     HBNBCommand().cmdloop()
