@@ -11,6 +11,5 @@ class City(BaseModel):
     """
     this is a city class
     """
-    super(City, self).__init__()
-    self.state_id = ""
-    self.name = ""
+    state_id = ""
+    name = ""

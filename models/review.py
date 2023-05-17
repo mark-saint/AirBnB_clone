@@ -11,8 +11,6 @@ class Review(BaseModel):
     """
     this is a review class
     """
-    def __init__(self):
-        super(Review, self).__init__()
-        self.place_id = ""
-        self.user_id = ""
-        self.text = ""
+    place_id = ""
+    user_id = ""
+    text = ""

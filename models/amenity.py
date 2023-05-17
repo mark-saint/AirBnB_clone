@@ -11,6 +11,4 @@ class Amenity(BaseModel):
     """
     this is a class
     """
-    def __init__(self):
-        super(Amenity, self).__init__()
-        self.name = ""
+    name = ""
